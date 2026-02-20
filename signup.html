@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+     body {
+      background-color: #2f6fb3;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+        }
+      .signup-box {
+      background: #f8f9fa;
+      padding: 35px;
+      border-radius: 6px;
+      width: 100%;
+      max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+     <div class="signup-box">
+     <h3 class="mb-3">Sign Up</h3>
+     <p>Please fill in this form to create an account!</p>
+      <form>
+      <div class="form-row">
+      <div class="form-group col-md-6">
+      <input type="text" class="form-control" placeholder="First Name">
+      </div>
+
+      <div class="form-group col-md-6">
+      <input type="text" class="form-control" placeholder="Last Name">
+      </div>
+      </div>
+      <div class="form-group">
+      <input type="email" class="form-control" placeholder="Enter Email">
+      </div>
+      <div class="form-group">
+      <input type="password" class="form-control" placeholder="Enter Password">
+      </div>
+      <div class="form-group">
+      <input type="password" class="form-control" placeholder="Confirm Password">
+      </div>
+      <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="terms">
+      <label class="form-check-label" for="terms">
+                    I accept the Terms of Use & Privacy Policy
+      </label>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">
+                Sign Up
+      </button>
+
+      </form>
+
+     </div>
+     <p class="text-white mt-3">
+        Already have an account?
+    <a href="#" class="text-white font-weight-bold">Login here</a>
+    </p>
+
+</body>
+</html>
